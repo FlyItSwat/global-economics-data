@@ -4,7 +4,7 @@ import plotly.express as px
 from economics import COUNTRIES, INDICATORS, get_indicator, latest_by_country, compare_years
 
 st.set_page_config(page_title='Global Economics Data Explorer',page_icon='🌍',layout='wide')
-st.title('🌍 Global Economics Data Explorer')
+st.title('Global Economics Data Explorer')
 st.caption('Compare countries using World Bank World Development Indicators')
 with st.sidebar:
     st.header('Explore indicators')
